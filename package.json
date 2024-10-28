@@ -1,0 +1,18 @@
+{
+  "name": "com.sheepinggames.jam-bootstrap",
+  "displayName": "Jam Boostrap",
+  "description": "Project setup essentials making Jam preparations easy",
+  "version": "1.0.0",
+  "keywords": [
+    "extension",
+    "attribute",
+    "inspector",
+    "editor"
+  ],
+  "category": "editor extensions",
+  "dependencies": {},
+  "author": {
+    "name": "Spica",
+    "url": "https://github.com/Bejenar"
+  }
+}
