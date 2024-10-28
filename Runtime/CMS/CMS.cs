@@ -11,18 +11,18 @@ public static class CMS
     
     static bool isInit;
     
-    public static void Init()
+    public static void Init(Type root)
     {
         if (isInit)
             return;
         isInit = true;
         
-        AutoAdd();
+        AutoAdd(root);
     }
     
-    static void AutoAdd()
+    static void AutoAdd(Type root)
     {
-        var subs = ReflectionUtil.FindAllSubslasses<CMSEntity>();
+        var subs = ReflectionUtil.FindAllSubslasses<CMSEntity>(root);
         foreach (var subclass in subs)
             all.Add(Activator.CreateInstance(subclass) as CMSEntity);
     }
