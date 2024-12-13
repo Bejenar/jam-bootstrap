@@ -102,6 +102,7 @@ public class CMSTable<T> where T : CMSEntity, new()
     }
 }
 
+[Serializable]
 public class CMSEntity
 {
     public string id;
