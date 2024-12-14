@@ -1,6 +1,6 @@
 using System;
 using Engine.Math;
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace JamBootstrap.Serialization
